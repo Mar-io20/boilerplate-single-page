@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Merriweather:wght@300;400;700&display=swap');
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: #D7D4FF;
+    height: 500px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container-conteudo {
+    display: flex;
+    flex-direction: column;
+    
+    width: 389px;
+    
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'Merriweather', serif, 300;
+}
+.paragrafo {
+    font-size: 19px;
+    font-family: 'Lato', sans-serif, 300;
+}
+
+.button {
+    width: 155px;
+    height: 50px;
+    border-radius: 5px;
+
+    color: #fff;
+    background: #6C63FF;
+    margin-top: 10px;
+}
+
+.img-responsive {
+    height: 300px;
+}
+
